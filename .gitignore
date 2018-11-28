@@ -30,7 +30,6 @@ hs_err_pid*
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
-.idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
 
@@ -47,16 +46,9 @@ hs_err_pid*
 .idea/**/gradle.xml
 .idea/**/libraries
 
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-
 # CMake
-cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
@@ -85,13 +77,3 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
-.idea/compiler.xml
-.idea/encodings.xml
-.idea/inspectionProfiles/
-.idea/libraries/
-.idea/misc.xml
-.idea/modules.xml
-.idea/uiDesigner.xml
-.idea/workspace.xml
-DelayTest.iml
-target/
