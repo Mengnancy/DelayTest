@@ -40,7 +40,7 @@ public class NettyClient {
                             ch.pipeline().addLast("MessageEncoder", new NettyMessageEncoder());
                             ch.pipeline().addLast("readTimeoutHandler", new ReadTimeoutHandler(50));
                             ch.pipeline().addLast("LoginAuthHandler", new LoginAuthReqHandler());
-                            ch.pipeline().addLast("HeartBeatHandler", new HeartBeatReqHandler());
+//                            ch.pipeline().addLast("HeartBeatHandler", new HeartBeatReqHandler());
                         }
                     });
 
